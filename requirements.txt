@@ -1,0 +1,6 @@
+notebook
+jupyterlab
+jupyter-book
+matplotlib
+numpy
+sphinxcontrib-apa

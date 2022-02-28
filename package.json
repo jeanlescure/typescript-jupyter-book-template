@@ -1,0 +1,13 @@
+{
+  "name": "@jeanlescure/typescript-jupyter-book-template",
+  "version": "1.0.0",
+  "description": "Jean M. Lescure's Jupyter Book template",
+  "main": "index.js",
+  "scripts": {
+    "setup-ts-kernel": "npm install -g typescript-jupyter-kernel && ts-kernel install",
+    "dev": "cd book && jupyter lab",
+    "build": "cd book && jupyter-book build --all . && find ./_build -type f -exec sed -i 's/index.html//g' {} +"
+  },
+  "author": "Jean M. Lescure",
+  "license": "Apache-2.0"
+}
