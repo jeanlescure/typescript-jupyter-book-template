@@ -17,6 +17,8 @@ to help organize and publish my work in an efficient and conscientious manner.
 
 ![](https://raw.githubusercontent.com/jeanlescure/typescript-jupyter-book-template/main/book/assets/snapshot.png)
 
+View the [live example](https://jeanlescure.io/books/typescript-jupyter-book-template/).
+
 If you find it useful, please consider supporting my work by:
 
 - [Buying me a coffee](https://www.buymeacoffee.com/jeanlescure) ☕
@@ -71,6 +73,10 @@ pnpm i
 ```
 
 ## Usage
+
+Open this repository on VS Code.
+
+Alternatively, you can run the following command to run Jupyter Lab inside the book's directory:
 
 ```sh
 pnpm dev
