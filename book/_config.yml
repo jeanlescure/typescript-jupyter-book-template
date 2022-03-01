@@ -5,6 +5,9 @@ logo: assets/jeanlescure-logo.svg
 title: ''
 author: Jean M. Lescure
 
+exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", "**node_modules"]
+only_build_toc_files: true
+
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
@@ -37,3 +40,4 @@ sphinx:
     bibtex_default_style: apa
     language: en
     html_show_copyright: false
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

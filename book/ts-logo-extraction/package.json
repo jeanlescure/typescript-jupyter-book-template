@@ -1,0 +1,15 @@
+{
+  "name": "ts-logo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean M. Lescure",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@types/get-pixels": "^3.3.2",
+    "get-pixels": "^3.3.3"
+  }
+}

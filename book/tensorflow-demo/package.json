@@ -1,0 +1,12 @@
+{
+  "name": "tensorflow-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.13.0",
+    "@tensorflow/tfjs-node": "^3.13.0",
+    "ws": "^8.5.0"
+  }
+}

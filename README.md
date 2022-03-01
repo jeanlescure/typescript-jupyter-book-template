@@ -9,7 +9,7 @@
 I'm an avid Typescript developer, so much so that I wrote and published [typescript-jupyter-kernel](https://github.com/simplyhexagonal/typescript-jupyter-kernel)
 to use with [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/) and [Jupyter Lab](https://jupyter.org/).
 
-As my research has grown in size and complexity, I've put together this Jupyter Book template,
+As my research has grown in size and complexity, I've put together this [Jupyter Book](https://jupyterbook.org/) template,
 making sure to adhere to well-known industry standards (such as [APA](https://apastyle.apa.org/style-grammar-guidelines/references/examples/webpage-website-references) style citations/bibliography),
 to help organize and publish my work in an efficient and conscientious manner.
 
