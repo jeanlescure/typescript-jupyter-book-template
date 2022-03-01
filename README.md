@@ -66,7 +66,7 @@ pnpm i
 pnpm dev
 ```
 
-**NOTE:** `CTRL-C` does not stop the Jupyter Lab server, to stop the server, click `File -> Shut Down` on Jupyter Lab's UI.
+**NOTE:** `CTRL-C` does not stop Jupyter Lab, to stop the server, click `File -> Shut Down` on Jupyter Lab's UI.
 
 ## Building Book (HTML)
 
