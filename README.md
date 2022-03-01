@@ -6,6 +6,8 @@
 
 # Typescript Jupyter Book Template
 
+![Jupyter Book Badge](https://jupyterbook.org/badge.svg)
+
 I'm an avid Typescript developer, so much so that I wrote and published [typescript-jupyter-kernel](https://github.com/simplyhexagonal/typescript-jupyter-kernel)
 to use with [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/) and [Jupyter Lab](https://jupyter.org/).
 
