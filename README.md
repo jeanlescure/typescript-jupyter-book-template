@@ -32,6 +32,14 @@ Install Python 3 and pip:
 - [How to Install on MacOS](https://realpython.com/installing-python/#how-to-install-from-homebrew)
 - [How to Install on Windows](https://realpython.com/installing-python/#how-to-install-from-the-full-installer)
 
+Clone this repository and navigate to the root directory:
+
+```sh
+git clone https://github.com/jeanlescure/typescript-jupyter-book-template.git
+
+cd typescript-jupyter-book-template
+```
+
 Install pip dependencies:
 
 ```sh
