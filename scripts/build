@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+cd book \
+&& jupyter-book build --all . \
+&& find ./_build -type f -exec sed -i 's/index.html//g' {} +

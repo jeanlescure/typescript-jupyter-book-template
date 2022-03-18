@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+concurrently -n lab,build,http \
+"cd book && jupyter lab" \
+"nodemon -e ipynb --ignore './**/.ipynb_checkpoints/' --ignore 'book/_build/' --exec ./scripts/build" \
+"cd book/_build/html && fasthr"

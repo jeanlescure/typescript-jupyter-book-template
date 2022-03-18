@@ -1,0 +1,8 @@
+#! /usr/bin/env bash
+
+set -o allexport; 
+[ -f .env ] && source .env;
+set +o allexport
+
+pnpm build \
+&& aws s3 sync --delete ${BUILD_HTML_DIR} ${S3_DIR}
